@@ -165,10 +165,8 @@
       <tr><td>Gender preference selection</td><td>Name filtering</td><td>Your device only</td></tr>
     </table>
     <p>None of this data is transmitted to our servers. It is stored exclusively on your device using secure local storage and is deleted when you uninstall the app or use the Delete Data function.</p>
-
     <h3>3.2 Location Data</h3>
     <p>If you grant location permission, we use your approximate GPS coordinates solely to detect your timezone for accurate astrological calculations. We do not store, log, or transmit your GPS coordinates to any server. If you deny location permission, we use your device's system timezone instead — no GPS data is accessed.</p>
-
     <h3>3.3 Data Sent to Our AI Service (Groq)</h3>
     <p>When you generate baby names, the following data is sent to Groq's API servers (located in the United States) to generate name suggestions:</p>
     <ul>
@@ -178,14 +176,13 @@
       <li>Astrological sign data derived from your inputs</li>
     </ul>
     <p>This data contains no information that directly identifies you personally (no name, email, IP address or device ID is sent). Groq processes this data under their own privacy policy at <a href="https://groq.com/privacy-policy/" target="_blank">groq.com/privacy-policy</a>. We have selected Groq as a processor that maintains appropriate data protection standards.</p>
-
-    <h3>3.4 Purchase and Subscription Data</h3>
+    <h3>3.4 City Search Data (Nominatim/OpenStreetMap)</h3>
+    <p>When you type a city name in the birth location field, your search query is sent to <strong>Nominatim</strong> (operated by the OpenStreetMap Foundation, based in the United Kingdom) at nominatim.openstreetmap.org to provide city name autocomplete suggestions. Only the text you type is transmitted — no personal information, device identifiers, or location data is included. OpenStreetMap Foundation Privacy Policy: <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank">osmfoundation.org/wiki/Privacy_Policy</a>.</p>
+    <h3>3.5 Purchase and Subscription Data</h3>
     <p>If you purchase a premium subscription, RevenueCat processes the transaction on our behalf. RevenueCat may collect: your device identifier, purchase history, and subscription status. We do not receive or store your payment card details. RevenueCat's privacy policy applies: <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a>.</p>
-
-    <h3>3.5 Technical and Diagnostic Data</h3>
+    <h3>3.6 Technical and Diagnostic Data</h3>
     <p>The app is built on Expo (React Native). Expo may collect standard crash reports and diagnostic information to ensure app stability. This data is anonymous and cannot be used to identify you. Expo's privacy policy: <a href="https://expo.dev/privacy" target="_blank">expo.dev/privacy</a>.</p>
-
-    <h3>3.6 Data We Do NOT Collect</h3>
+    <h3>3.7 Data We Do NOT Collect</h3>
     <ul>
       <li>We do not collect your name, email address, or phone number</li>
       <li>We do not collect your IP address</li>
@@ -194,7 +191,7 @@
       <li>We do not track your behaviour across other apps or websites</li>
       <li>We do not sell, rent, or share your data with advertisers</li>
     </ul>
-
+   
     <h2>4. Automated Decision-Making</h2>
     <p>Cosmonym uses AI (via the Groq API) to generate baby name suggestions based on your inputs. This constitutes automated processing. The names generated are suggestions only — no automated decision is made that significantly affects your legal rights or interests. You are free to disregard any suggestions. We disclose this in accordance with the Australian Privacy and Other Legislation Amendment Act 2024 automated decision-making transparency requirements (effective December 2026).</p>
     <p>The AI does not make decisions about you as a person. It generates creative content (name suggestions) based on astrological and cultural parameters you provide.</p>
@@ -215,6 +212,7 @@
     <p>Your data may be transferred to and processed in countries outside Australia, specifically:</p>
     <ul>
       <li><strong>United States</strong> — Groq API (name generation), RevenueCat (purchases), Expo (diagnostics)</li>
+      <li><strong>United Kingdom / EU</strong> — Nominatim/OpenStreetMap Foundation (city search autocomplete)</li>
     </ul>
     <p>We take reasonable steps to ensure these third-party processors maintain data protection standards consistent with Australian Privacy Principles (APP 8). By using Cosmonym, you consent to this international transfer for the purposes described above. EU users: these transfers are subject to appropriate safeguards as described in Section 10.</p>
 
