@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosmonym — Legal</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0D0B1E;
+    color: #ECEDEE;
+    line-height: 1.7;
+    padding: 0 20px;
+  }
+  .header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    border-bottom: 1px solid #2A2550;
+  }
+  .app-name {
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+  }
+  .app-name span { color: #28A745; }
+  .subtitle {
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #6C5FA6;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .dates { font-size: 14px; color: #6C757D; }
+  .tab-nav {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin: 32px auto;
+    max-width: 500px;
+    border: 1px solid #2A2550;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .tab-btn {
+    flex: 1;
+    padding: 12px 20px;
+    background: transparent;
+    border: none;
+    color: #6C757D;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .tab-btn.active {
+    background: #28A745;
+    color: #FFFFFF;
+  }
+  .tab-btn:not(.active):hover { background: #1A1035; color: #ECEDEE; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 0 80px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 40px 0 12px;
+    padding-left: 12px;
+    border-left: 3px solid #28A745;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ECEDEE;
+    margin: 20px 0 8px;
+  }
+  p { font-size: 15px; color: #9BA1A6; margin-bottom: 14px; }
+  ul, ol { padding-left: 20px; margin-bottom: 14px; }
+  li { font-size: 15px; color: #9BA1A6; margin-bottom: 8px; }
+  a { color: #28A745; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .highlight {
+    background: #1A1035;
+    border: 1px solid #2A2550;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+  .highlight p { margin: 0; color: #ECEDEE; }
+  .warning {
+    background: #1A0F00;
+    border: 1px solid #3D2800;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+  .warning p { margin: 0; color: #FFC107; }
+  .footer {
+    text-align: center;
+    padding: 32px;
+    border-top: 1px solid #2A2550;
+    font-size: 13px;
+    color: #4A4270;
+  }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+  th { text-align: left; font-size: 13px; font-weight: 600; color: #ECEDEE; padding: 10px 12px; background: #1A1035; border: 1px solid #2A2550; }
+  td { font-size: 13px; color: #9BA1A6; padding: 10px 12px; border: 1px solid #2A2550; vertical-align: top; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="app-name">Cosmo<span>nym</span></div>
+  <div class="subtitle">Legal Documents</div>
+  <div class="dates">Last Updated: May 1, 2026 &nbsp;|&nbsp; DarkMattrLabs &nbsp;|&nbsp; Sydney, Australia</div>
+</div>
+
+<div class="container">
+
+  <div class="tab-nav">
+    <button class="tab-btn active" onclick="showTab('privacy')">Privacy Policy</button>
+    <button class="tab-btn" onclick="showTab('terms')">Terms of Service</button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- PRIVACY POLICY                                              -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div id="privacy" class="tab-content active">
+
+    <div class="highlight">
+      <p><strong>Summary:</strong> Cosmonym is designed with privacy first. No account is required. Your personal data stays on your device. We do not sell your data to anyone, ever. This policy explains exactly what we collect, why, and your rights.</p>
+    </div>
+
+    <h2>1. About Us</h2>
+    <p>Cosmonym is operated by DarkMattrLabs, based in Sydney, New South Wales, Australia ("we", "us", "our"). We are the data controller for any personal information processed in connection with your use of Cosmonym.</p>
+    <p><strong>Contact:</strong> <a href="mailto:darkmattrlabs@gmail.com">darkmattrlabs@gmail.com</a></p>
+    <p>We do not currently have a registered office address. If you need to submit a formal privacy complaint, please contact us by email and we will provide further details.</p>
+
+    <h2>2. What Laws Apply</h2>
+    <p>This policy is designed to comply with:</p>
+    <ul>
+      <li><strong>Australian Privacy Act 1988 (Cth)</strong> and the 13 Australian Privacy Principles (APPs), as amended by the Privacy and Other Legislation Amendment Act 2024</li>
+      <li><strong>Notifiable Data Breaches (NDB) Scheme</strong> (Part IIIC of the Privacy Act) — mandatory since February 2018</li>
+      <li><strong>EU General Data Protection Regulation (GDPR)</strong> — to the extent the app is available to EU residents</li>
+      <li><strong>Google Play Developer Programme Policies</strong></li>
+    </ul>
+
+    <h2>3. Information We Collect</h2>
+
+    <h3>3.1 Information You Provide</h3>
+    <table>
+      <tr><th>Data</th><th>Purpose</th><th>Storage Location</th></tr>
+      <tr><td>Due date or birth date entered by you</td><td>Astrological birth chart calculation</td><td>Your device only</td></tr>
+      <tr><td>Birth time (optional)</td><td>More accurate Rising sign calculation</td><td>Your device only</td></tr>
+      <tr><td>Ancestry preferences</td><td>Personalised name generation</td><td>Your device only</td></tr>
+      <tr><td>Name preferences and saved favourites</td><td>Personalised recommendations</td><td>Your device only</td></tr>
+      <tr><td>Partner invite code (optional)</td><td>Partner name matching feature</td><td>Your device only</td></tr>
+      <tr><td>Gender preference selection</td><td>Name filtering</td><td>Your device only</td></tr>
+    </table>
+    <p>None of this data is transmitted to our servers. It is stored exclusively on your device using secure local storage and is deleted when you uninstall the app or use the Delete Data function.</p>
+
+    <h3>3.2 Location Data</h3>
+    <p>If you grant location permission, we use your approximate GPS coordinates solely to detect your timezone for accurate astrological calculations. We do not store, log, or transmit your GPS coordinates to any server. If you deny location permission, we use your device's system timezone instead — no GPS data is accessed.</p>
+
+    <h3>3.3 Data Sent to Our AI Service (Groq)</h3>
+    <p>When you generate baby names, the following data is sent to Groq's API servers (located in the United States) to generate name suggestions:</p>
+    <ul>
+      <li>Birth date and time (no name or personally identifying information is included)</li>
+      <li>Ancestry blend selections</li>
+      <li>Gender preference</li>
+      <li>Astrological sign data derived from your inputs</li>
+    </ul>
+    <p>This data contains no information that directly identifies you personally (no name, email, IP address or device ID is sent). Groq processes this data under their own privacy policy at <a href="https://groq.com/privacy-policy/" target="_blank">groq.com/privacy-policy</a>. We have selected Groq as a processor that maintains appropriate data protection standards.</p>
+
+    <h3>3.4 Purchase and Subscription Data</h3>
+    <p>If you purchase a premium subscription, RevenueCat processes the transaction on our behalf. RevenueCat may collect: your device identifier, purchase history, and subscription status. We do not receive or store your payment card details. RevenueCat's privacy policy applies: <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a>.</p>
+
+    <h3>3.5 Technical and Diagnostic Data</h3>
+    <p>The app is built on Expo (React Native). Expo may collect standard crash reports and diagnostic information to ensure app stability. This data is anonymous and cannot be used to identify you. Expo's privacy policy: <a href="https://expo.dev/privacy" target="_blank">expo.dev/privacy</a>.</p>
+
+    <h3>3.6 Data We Do NOT Collect</h3>
+    <ul>
+      <li>We do not collect your name, email address, or phone number</li>
+      <li>We do not collect your IP address</li>
+      <li>We do not use advertising trackers or analytics SDKs</li>
+      <li>We do not use cookies</li>
+      <li>We do not track your behaviour across other apps or websites</li>
+      <li>We do not sell, rent, or share your data with advertisers</li>
+    </ul>
+
+    <h2>4. Automated Decision-Making</h2>
+    <p>Cosmonym uses AI (via the Groq API) to generate baby name suggestions based on your inputs. This constitutes automated processing. The names generated are suggestions only — no automated decision is made that significantly affects your legal rights or interests. You are free to disregard any suggestions. We disclose this in accordance with the Australian Privacy and Other Legislation Amendment Act 2024 automated decision-making transparency requirements (effective December 2026).</p>
+    <p>The AI does not make decisions about you as a person. It generates creative content (name suggestions) based on astrological and cultural parameters you provide.</p>
+
+    <h2>5. Astrological Content Disclaimer</h2>
+    <p>All astrological information, birth chart analysis, and name compatibility assessments provided by Cosmonym are generated for <strong>entertainment and creative inspiration purposes only</strong>. They do not constitute professional advice of any kind. Cosmonym makes no representation that astrological information is scientifically accurate, factually correct, or suitable for decision-making regarding child naming or any other matter. You use this information entirely at your own discretion.</p>
+
+    <h2>6. How Long We Keep Your Data</h2>
+    <table>
+      <tr><th>Data Type</th><th>Retention Period</th></tr>
+      <tr><td>Your preferences and favourites (on-device)</td><td>Until you delete the app or use Delete Data function</td></tr>
+      <tr><td>Data sent to Groq API</td><td>Groq retains API request data for up to 30 days for abuse prevention, then deletes it. See Groq's privacy policy for current details.</td></tr>
+      <tr><td>RevenueCat purchase data</td><td>Retained for the duration required by applicable law and RevenueCat's retention policy</td></tr>
+      <tr><td>Expo diagnostic data</td><td>Retained per Expo's data retention policy (typically 90 days)</td></tr>
+    </table>
+
+    <h2>7. International Data Transfers</h2>
+    <p>Your data may be transferred to and processed in countries outside Australia, specifically:</p>
+    <ul>
+      <li><strong>United States</strong> — Groq API (name generation), RevenueCat (purchases), Expo (diagnostics)</li>
+    </ul>
+    <p>We take reasonable steps to ensure these third-party processors maintain data protection standards consistent with Australian Privacy Principles (APP 8). By using Cosmonym, you consent to this international transfer for the purposes described above. EU users: these transfers are subject to appropriate safeguards as described in Section 10.</p>
+
+    <h2>8. Data Security</h2>
+    <p>We take reasonable technical and organisational measures to protect your data, including:</p>
+    <ul>
+      <li>All data on your device is stored using your device's secure storage mechanisms</li>
+      <li>All communications between the app and our servers use HTTPS/TLS encryption</li>
+      <li>We do not maintain a central database of user personal information</li>
+      <li>Access to our backend services is restricted and authenticated</li>
+    </ul>
+    <p>No method of electronic transmission or storage is 100% secure. We cannot guarantee absolute security but commit to notifying you of any breach as required by law.</p>
+
+    <h2>9. Notifiable Data Breaches (NDB Scheme)</h2>
+    <p>In the event of an eligible data breach (as defined under Part IIIC of the Privacy Act 1988), we will:</p>
+    <ul>
+      <li>Assess the breach as quickly as possible and no later than 30 days after becoming aware</li>
+      <li>Notify the Office of the Australian Information Commissioner (OAIC) as soon as practicable</li>
+      <li>Notify affected individuals if the breach is likely to result in serious harm</li>
+      <li>Notify you via a prominent in-app notice or via the email address you provided (if any)</li>
+    </ul>
+    <p>To report a suspected privacy breach or security vulnerability, contact us immediately at <a href="mailto:darkmattrlabs@gmail.com">darkmattrlabs@gmail.com</a>.</p>
+
+    <h2>10. Your Rights</h2>
+
+    <h3>10.1 Australian Users (Privacy Act APPs)</h3>
+    <ul>
+      <li><strong>Access:</strong> You may request access to any personal information we hold about you</li>
+      <li><strong>Correction:</strong> You may request correction of inaccurate or incomplete personal information</li>
+      <li><strong>Deletion:</strong> You may delete all your data at any time using the Delete Data function in the app, or by uninstalling the app. Since we hold no personal data on our servers, deletion is immediate and complete.</li>
+      <li><strong>Complaint:</strong> You may lodge a complaint with the Office of the Australian Information Commissioner (OAIC) at <a href="https://www.oaic.gov.au" target="_blank">oaic.gov.au</a> or 1300 363 992</li>
+    </ul>
+
+    <h3>10.2 EU/EEA Users (GDPR Rights)</h3>
+    <p>If you are located in the EU or EEA, you have additional rights under GDPR:</p>
+    <ul>
+      <li><strong>Right to access</strong> (Article 15) — request a copy of your personal data</li>
+      <li><strong>Right to rectification</strong> (Article 16) — request correction of inaccurate data</li>
+      <li><strong>Right to erasure / "right to be forgotten"</strong> (Article 17) — request deletion of your data</li>
+      <li><strong>Right to restrict processing</strong> (Article 18) — request we limit how we use your data</li>
+      <li><strong>Right to data portability</strong> (Article 20) — request your data in a machine-readable format</li>
+      <li><strong>Right to object</strong> (Article 21) — object to processing based on legitimate interests</li>
+      <li><strong>Right not to be subject to automated decision-making</strong> (Article 22) — as noted in Section 4, no significant automated decisions are made about you</li>
+    </ul>
+    <p><strong>Legal basis for processing (GDPR Article 6):</strong> We process your data on the basis of <em>contract performance</em> (to provide the name generation service you requested) and <em>legitimate interests</em> (to maintain app security and improve the service). We do not rely on consent as the primary basis since the data is processed anonymously.</p>
+    <p>To exercise any GDPR rights, contact us at <a href="mailto:darkmattrlabs@gmail.com">darkmattrlabs@gmail.com</a>. We will respond within 30 days. You may also lodge a complaint with your local EU data protection authority.</p>
+
+    <h2>11. Children's Privacy</h2>
+    <p>Cosmonym is intended for use by adults (expectant parents and guardians aged 18 and over). We do not knowingly collect personal information from children under 13. If you are under 18, please obtain parental consent before using the app.</p>
+    <p>If you believe a person under 13 has provided personal information through the app, please contact us immediately at <a href="mailto:darkmattrlabs@gmail.com">darkmattrlabs@gmail.com</a> and we will take steps to delete that information.</p>
+    <p>A Children's Online Privacy Code is being developed by the OAIC (expected December 2026). We will update this policy to comply when that code comes into effect.</p>
+
+    <h2>12. Third-Party Links</h2>
+    <p>The app may contain links to third-party websites (such as our privacy policy page). We are not responsible for the privacy practices of those websites. We encourage you to review their privacy policies.</p>
+
+    <h2>13. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. We will notify you of material changes by updating the "Last Updated" date at the top and, where the changes are significant, by displaying a notice within the app. Continued use of Cosmonym after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>14. Contact and Complaints</h2>
+    <p>For any privacy questions, requests, or complaints:</p>
+    <ul>
+      <li>Email: <a href="mailto:darkmattrlabs@gmail.com">darkmattrlabs@gmail.com</a></li>
+      <li>We will respond to all requests within 30 days</li>
+    </ul>
+    <p>If you are not satisfied with our response, you may contact:</p>
+    <ul>
+      <li><strong>Australia:</strong> Office of the Australian Information Commissioner (OAIC) — <a href="https://www.oaic.gov.au" target="_blank">oaic.gov.au</a> — 1300 363 992</li>
+      <li><strong>EU/EEA:</strong> Your local Data Protection Authority</li>
+    </ul>
+
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- TERMS OF SERVICE                                            -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div id="terms" class="tab-content">
+
+    <div class="highlight">
+      <p><strong>Summary:</strong> By using Cosmonym, you agree to these terms. The app is for entertainment purposes. We are not responsible for your naming decisions. You may not misuse the app. Subscriptions are billed through Google Play.</p>
+    </div>
+
+    <h2>1. Agreement to Terms</h2>
+    <p>By downloading, installing, or using Cosmonym ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App. These Terms constitute a legally binding agreement between you and DarkMattrLabs (ABN pending registration), Sydney, New South Wales, Australia ("we", "us", "our").</p>
+
+    <h2>2. Description of Service</h2>
+    <p>Cosmonym is a mobile application that uses artificial intelligence and astrological theming to generate baby name suggestions. The App provides:</p>
+    <ul>
+      <li>AI-generated baby name suggestions based on astrological and ancestry inputs</li>
+      <li>Birth chart analysis derived from provided dates and locations</li>
+      <li>Name uniqueness and rarity scoring</li>
+      <li>Partner name matching via invite codes</li>
+      <li>Optional premium subscription for enhanced features</li>
+    </ul>
+
+    <h2>3. Entertainment Purposes Only — Important Disclaimer</h2>
+    <div class="warning">
+      <p>⚠️ ALL ASTROLOGICAL CONTENT, BIRTH CHART ANALYSIS, NAME COMPATIBILITY SCORES, AND PERSONALITY TRAIT DESCRIPTIONS PROVIDED BY COSMONYM ARE FOR ENTERTAINMENT AND CREATIVE INSPIRATION PURPOSES ONLY. THEY DO NOT CONSTITUTE PROFESSIONAL ADVICE OF ANY KIND — INCLUDING MEDICAL, PSYCHOLOGICAL, LEGAL, FINANCIAL, OR PARENTING ADVICE.</p>
+    </div>
+    <p>Astrology is not a science. The astrological interpretations provided by Cosmonym are generated by AI and are creative, not factual. We make no representation that:</p>
+    <ul>
+      <li>Any name suggestion is suitable or appropriate for your child</li>
+      <li>Any astrological interpretation is accurate, true, or scientifically valid</li>
+      <li>Any personality trait described will apply to your child</li>
+      <li>Any name will have any particular effect on a person's life or wellbeing</li>
+    </ul>
+    <p>You are solely responsible for any decision you make regarding naming your child or any other matter. We expressly disclaim all liability for any decisions made based on content generated by Cosmonym.</p>
+
+    <h2>4. Eligibility</h2>
+    <p>You must be at least 18 years of age to use Cosmonym. By using the App, you represent and warrant that you are 18 or older. If you are under 18, you may only use the App with verifiable parental consent.</p>
+
+    <h2>5. Account and Data</h2>
+    <p>Cosmonym does not require you to create an account. All your data (favourites, preferences) is stored locally on your device. You are responsible for maintaining the security of your device. We are not liable for any loss of data resulting from device loss, damage, or deletion.</p>
+
+    <h2>6. Premium Subscriptions</h2>
+    <p>Cosmonym offers optional premium subscriptions that unlock additional features. The following terms apply:</p>
+    <ul>
+      <li><strong>Billing:</strong> All subscriptions are billed through Google Play. Payment is charged to your Google Play account upon confirmation of purchase.</li>
+      <li><strong>Renewal:</strong> Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period.</li>
+      <li><strong>Cancellation:</strong> You may cancel at any time through your Google Play account settings. Cancellation takes effect at the end of the current billing period.</li>
+      <li><strong>Refunds:</strong> Refunds are managed by Google Play in accordance with their refund policy. We do not offer refunds directly.</li>
+      <li><strong>Price changes:</strong> We reserve the right to change subscription prices. You will be notified of price changes before they take effect.</li>
+      <li><strong>Early Adopter Pricing:</strong> Any early adopter pricing is locked in for the duration of your continuous subscription. If you cancel and resubscribe, standard pricing applies.</li>
+      <li><strong>Feature changes:</strong> Premium features may change over time. We do not guarantee that any specific feature will remain available indefinitely.</li>
+    </ul>
+
+    <h2>7. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the App for any unlawful purpose or in violation of any laws</li>
+      <li>Attempt to reverse engineer, decompile, or extract the source code of the App</li>
+      <li>Use the App to generate content intended to harm, harass, or discriminate against any person</li>
+      <li>Attempt to bypass, disable, or interfere with any security features of the App</li>
+      <li>Use automated systems to access the App in a manner that sends more requests than a human could reasonably produce</li>
+      <li>Share, resell, or commercialise access to premium features without our express written consent</li>
+    </ul>
+
+    <h2>8. Intellectual Property</h2>
+    <p>The App, including its design, code, branding, and content (excluding user-generated inputs), is owned by DarkMattrLabs and protected by Australian and international intellectual property laws. You are granted a limited, non-exclusive, non-transferable, revocable licence to use the App for personal, non-commercial purposes only.</p>
+    <p>AI-generated name suggestions produced in response to your inputs are provided for your personal use. We do not claim ownership over names generated for you, nor do we warrant that any generated name is free from trademark, copyright, or other third-party rights.</p>
+
+    <h2>9. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by Australian consumer law:</p>
+    <ul>
+      <li>We provide the App "as is" and "as available" without warranties of any kind, express or implied</li>
+      <li>We do not warrant that the App will be uninterrupted, error-free, or free from viruses or harmful components</li>
+      <li>We are not liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the App</li>
+      <li>Our total liability to you for any claim arising from your use of the App is limited to the amount you paid for the App or subscription in the 12 months preceding the claim, or AU$50, whichever is greater</li>
+      <li>We are not liable for any harm resulting from a child's name chosen based on App suggestions</li>
+    </ul>
+    <p><strong>Australian Consumer Law:</strong> Nothing in these Terms excludes, restricts, or modifies any consumer guarantee, right, or remedy under the Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010) that cannot be excluded, restricted, or modified by agreement.</p>
+
+    <h2>10. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless DarkMattrLabs and its operators from and against any claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising from your use of the App, your violation of these Terms, or your violation of any third-party rights.</p>
+
+    <h2>11. Third-Party Services</h2>
+    <p>The App uses third-party services including Groq (AI), RevenueCat (payments), and Expo (platform). Your use of those services is subject to their respective terms of service and privacy policies. We are not responsible for the practices, content, or availability of third-party services.</p>
+
+    <h2>12. Service Availability and Changes</h2>
+    <p>We reserve the right to:</p>
+    <ul>
+      <li>Modify, suspend, or discontinue the App (or any part of it) at any time with or without notice</li>
+      <li>Update, change, or remove features at any time</li>
+      <li>Change these Terms at any time by posting updated Terms in the App or on this page</li>
+    </ul>
+    <p>Your continued use of the App after changes to these Terms constitutes acceptance of the updated Terms. If you disagree with changes, you should stop using the App and cancel any subscription.</p>
+
+    <h2>13. Termination</h2>
+    <p>We may suspend or terminate your access to the App immediately, without notice, if you breach these Terms. Upon termination, your right to use the App ceases immediately. Sections 3 (Disclaimer), 8 (Intellectual Property), 9 (Limitation of Liability), 10 (Indemnification), and 15 (Governing Law) survive termination.</p>
+
+    <h2>14. App Store Terms</h2>
+    <p>The App is distributed through Google Play. These Terms are between you and DarkMattrLabs only — Google is not a party to these Terms and has no obligation to provide support or handle claims related to the App.</p>
+
+    <h2>15. Governing Law and Disputes</h2>
+    <p>These Terms are governed by the laws of New South Wales, Australia. Any dispute arising from these Terms or your use of the App shall be subject to the exclusive jurisdiction of the courts of New South Wales, Australia.</p>
+    <p>Before initiating formal legal proceedings, we request that you contact us at <a href="mailto:darkmattrlabs@gmail.com">darkmattrlabs@gmail.com</a> to attempt to resolve the dispute informally. We will use reasonable efforts to resolve disputes within 30 days.</p>
+
+    <h2>16. Contact</h2>
+    <p>For any questions about these Terms:</p>
+    <ul>
+      <li>Email: <a href="mailto:darkmattrlabs@gmail.com">darkmattrlabs@gmail.com</a></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<div class="footer">
+  &copy; 2026 DarkMattrLabs &nbsp;·&nbsp; Cosmonym &nbsp;·&nbsp; Sydney, Australia &nbsp;·&nbsp; All rights reserved
+</div>
+
+<script>
+function showTab(tab) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById(tab).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+
+</body>
+</html>
